@@ -4,7 +4,7 @@ Css language server extension for [coc.nvim](https://github.com/neoclide/coc.nvi
 
 Uses [vscode-css-languageservice](https://github.com/Microsoft/vscode-css-languageservice) inside.
 
-**Note**: words are exetracted by `iskeyword` option of buffer, you may want to
+**Note**: words are extracted from the buffer's `iskeyword` option, you may want to
 adjust it by command like:
 
     autocmd FileType css setl iskeyword+=-
